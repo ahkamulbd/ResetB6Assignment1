@@ -172,6 +172,14 @@ figcaption {
     text-align: justify;
 }
 
+.idol-description span {
+    font-weight: 700;
+    font-size: 12px;
+    color: maroon;
+    display: block;
+    margin-top: 7px;
+}
+
 /* Style for Contact Section */
 
 .contact-container {
