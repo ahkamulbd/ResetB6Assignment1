@@ -60,6 +60,7 @@ main {
 .my-failure {
     display: flex;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 #failure-description {
@@ -67,7 +68,7 @@ main {
     margin-top: 100px;
 }
 
-#failure-description h2 {
+.section-title {
     font-weight: 700;
     font-size: 45px;
     line-height: 47px;
@@ -101,4 +102,38 @@ main {
     color: #16D887;
     margin-right: 15px;
     margin-bottom: 15px;
+}
+
+/* Style of My Plan Section */
+
+.plan-container {
+    margin-bottom: 100px;
+}
+
+.plan-container .section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.plan-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-details div {
+    text-align: center;
+}
+
+.plan-details .plan-topic {
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #151414;
+}
+
+.plan-details .plan-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #737272;
 }
