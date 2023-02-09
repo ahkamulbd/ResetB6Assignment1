@@ -137,3 +137,25 @@ main {
     font-size: 16px;
     color: #737272;
 }
+
+/* Style for Contact Section */
+
+.contact-container {
+    margin-bottom: 100px;
+    padding: 60px;
+    background-image: url('../images/gradient1.png'), url('../images/watch.png');
+    background-repeat: no-repeat, repeat-y;
+    background-position: top right, left;
+    border-radius: 10px;
+}
+
+.contact-container .contact-div {
+    width: 460px;
+}
+
+.contact-container .contact-div h2 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
