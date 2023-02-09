@@ -1,3 +1,47 @@
 * {
     font-family: 'Work Sans', sans-serif;
 }
+
+header {
+    display: flex;
+    justify-content: right;
+    padding: 130px;
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+header section {
+    width: 600px;
+    text-align: right;
+}
+
+header section h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 76px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+header section p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.btn-primary {
+    background: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #005FAC;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+
+}
