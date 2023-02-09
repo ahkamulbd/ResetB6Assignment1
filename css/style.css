@@ -1,5 +1,6 @@
 * {
     font-family: 'Work Sans', sans-serif;
+    margin: 0;
 }
 
 header {
@@ -8,7 +9,7 @@ header {
     padding: 130px;
     background-image: url('../images/banner/banner3.png');
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: left bottom;
 }
 
 header section {
@@ -43,5 +44,60 @@ header section p {
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
+}
 
+/* ========================
+    Style of Main Section    
+=========================== */
+main {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+/* Style of My Failure Section */
+
+.my-failure {
+    display: flex;
+    margin-top: 100px;
+}
+
+#failure-description {
+    /* background-color: #af1a1a; */
+    margin-top: 100px;
+}
+
+#failure-description h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+#failure-description p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+#failure-description ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#failure-description ul li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+.check-mark {
+    color: #16D887;
+    margin-right: 15px;
+    margin-bottom: 15px;
 }
