@@ -138,6 +138,40 @@ main {
     color: #737272;
 }
 
+/* Style for My Idols Section */
+.idol-container {
+    background-color: #f4f3f7;
+    padding: 40px 30px;
+    margin-bottom: 100px;
+}
+
+.idol-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #01b700;
+    text-align: center;
+    margin-bottom: 44px;
+}
+
+.idol-details {
+    display: flex;
+    gap: 30px;
+}
+
+figcaption {
+    font-size: 25px;
+    text-align: center;
+    color: #007ac7;
+}
+
+.idol-description {
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #00b3d4;
+    text-align: justify;
+}
+
 /* Style for Contact Section */
 
 .contact-container {
