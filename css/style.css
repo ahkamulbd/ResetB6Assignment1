@@ -48,14 +48,14 @@ header section p {
 }
 
 /* ========================
-    Style of Main Section    
+    Style for Main Section    
 =========================== */
 main {
     margin-left: 200px;
     margin-right: 200px;
 }
 
-/* Style of My Failure Section */
+/* Style for My Failure Section */
 
 .my-failure {
     display: flex;
@@ -104,7 +104,7 @@ main {
     margin-bottom: 15px;
 }
 
-/* Style of My Plan Section */
+/* Style for My Plan Section */
 
 .plan-container {
     margin-bottom: 100px;
@@ -158,4 +158,73 @@ main {
     font-size: 40px;
     color: #FFFFFF;
     margin-bottom: 24px;
+}
+
+/* Style for Footer Section */
+
+.footer-container {
+    background: #151414;
+}
+
+.footer-body {
+    padding: 130px 230px;
+    display: flex;
+}
+
+.footer-left {
+    width: 500px;
+}
+
+.footer-left h2 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+    margin-bottom: 20px;
+}
+
+.footer-left p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-container a {
+    margin-right: 20px;
+}
+
+.footer-right {
+    width: 325px;
+}
+
+.footer-right h4 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+#footer-email {
+    display: block;
+    width: 300px;
+    padding: 10px 10px;
+    background-color: #151414;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#footer-btn {
+    padding: 10px 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
 }
